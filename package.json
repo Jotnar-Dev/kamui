@@ -1,24 +1,12 @@
 {
   "name": "kamui",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "^11.22.0",
-      "onFail": "download"
-    }
-  },
+  "private": true,
+  "version": "0.0.0",
   "type": "module",
-  "devDependencies": {
-    "turbo": "^2.10.11",
-    "typescript": "^7.0.2"
+  "license": "MIT",
+  "scripts": {
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
   }
 }
