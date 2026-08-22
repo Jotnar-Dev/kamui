@@ -1,1 +1,3 @@
 # kamui
+
+Test CI setup
