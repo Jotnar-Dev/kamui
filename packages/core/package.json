@@ -1,1 +1,9 @@
-{"name":"@jotnardev/core","version":"0.0.0","private":true}
+{
+  "name": "@jotnardev/core",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint ."
+  }
+}
