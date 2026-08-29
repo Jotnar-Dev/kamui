@@ -1,0 +1,26 @@
+:root {
+  --kamui-color-gray-100: #f5f5f5;
+  --kamui-color-gray-300: #d4d4d4;
+  --kamui-color-gray-500: #737373;
+  --kamui-color-gray-700: #404040;
+  --kamui-color-gray-900: #171717;
+  --kamui-color-primary-100: #e0e7ff;
+  --kamui-color-primary-300: #a5b4fc;
+  --kamui-color-primary-500: #6366f1;
+  --kamui-color-primary-700: #4338ca;
+  --kamui-color-primary-900: #312e81;
+  --kamui-space-1: 4px;
+  --kamui-space-2: 8px;
+  --kamui-space-3: 12px;
+  --kamui-space-4: 16px;
+  --kamui-space-6: 24px;
+  --kamui-space-8: 32px;
+  --kamui-font-size-sm: 14px;
+  --kamui-font-size-md: 16px;
+  --kamui-font-size-lg: 20px;
+  --kamui-font-size-xl: 24px;
+  --kamui-radius-sm: 4px;
+  --kamui-radius-md: 8px;
+  --kamui-radius-lg: 16px;
+  --kamui-radius-full: 9999px;
+}
