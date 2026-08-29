@@ -6,12 +6,20 @@
   "files": [
     "dist"
   ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    },
+    "./tokens.css": "./dist/tokens/tokens.css"
+  },
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "tokens:build": "tsx scripts/build-tokens.ts",
-    "build": "pnpm tokens:build && tsc",
+    "build:css": "mkdir -p dist/tokens && cp src/tokens/tokens.css dist/tokens/",
+    "build": "pnpm tokens:build && tsc && pnpm build:css",
     "typecheck": "tsc --noEmit",
     "lint": "eslint ."
   }
