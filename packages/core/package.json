@@ -10,7 +10,8 @@
     "access": "public"
   },
   "scripts": {
-    "build": "tsc",
+    "tokens:build": "tsx scripts/build-tokens.ts",
+    "build": "pnpm tokens:build && tsc",
     "typecheck": "tsc --noEmit",
     "lint": "eslint ."
   }
