@@ -22,5 +22,12 @@
     "build": "pnpm tokens:build && tsc && pnpm build:css",
     "typecheck": "tsc --noEmit",
     "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.18",
+    "react": "^19.2.8"
+  },
+  "peerDependencies": {
+    "react": ">=18"
   }
 }
