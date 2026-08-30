@@ -1,1 +1,2 @@
-export { Button } from './components/Button';
+// packages/core/src/index.ts
+export { Button } from './components/Button.js';
