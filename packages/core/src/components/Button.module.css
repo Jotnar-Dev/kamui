@@ -1,0 +1,16 @@
+/* Button.module.css — usa las variables de tokens.css */
+.button {
+  padding: var(--kamui-space-2) var(--kamui-space-4);
+  border-radius: var(--kamui-radius-md);
+  font-size: var(--kamui-font-size-md);
+  border: none;
+  cursor: pointer;
+}
+.primary {
+  background: var(--kamui-color-primary-500);
+  color: white;
+}
+.secondary {
+  background: var(--kamui-color-gray-100);
+  color: var(--kamui-color-gray-900);
+}
