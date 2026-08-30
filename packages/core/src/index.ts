@@ -1,3 +1,1 @@
-export function sayHello(): string {
-  return 'Hello from KamUI!';
-}
+export { Button } from './components/Button';
