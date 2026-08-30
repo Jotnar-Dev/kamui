@@ -19,6 +19,7 @@
   "scripts": {
     "tokens:build": "tsx scripts/build-tokens.ts",
     "build:css": "mkdir -p dist/tokens dist/components/Button && cp src/tokens/tokens.css dist/tokens/ && cp src/components/Button/Button.module.css dist/components/Button/",
+    "build": "pnpm tokens:build && tsc && pnpm build:css",
     "typecheck": "tsc --noEmit",
     "lint": "eslint ."
   },
