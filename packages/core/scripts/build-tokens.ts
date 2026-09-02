@@ -1,6 +1,10 @@
 import * as fs from 'fs';
-import * as path from 'path';
 import { tokens } from '../src/tokens/tokens';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // Función para convertir camelCase a kebab-case (ej. fontSize -> font-size)
 function toKebabCase(str: string) {

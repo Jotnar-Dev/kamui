@@ -1,6 +1,7 @@
 {
   "name": "@jotnardev/core",
   "version": "0.0.1",
+  "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
@@ -18,14 +19,14 @@
   },
   "scripts": {
     "tokens:build": "tsx scripts/build-tokens.ts",
-    "build:css": "mkdir -p dist/tokens dist/components/Button && cp src/tokens/tokens.css dist/tokens/ && cp src/components/Button/Button.module.css dist/components/Button/",
-    "build": "pnpm tokens:build && tsc && pnpm build:css",
+    "build": "pnpm tokens:build && tsup && mkdir -p dist/tokens && cp src/components/Button/Button.module.css dist/ && cp src/tokens/tokens.css dist/tokens/",
     "typecheck": "tsc --noEmit",
     "lint": "eslint ."
   },
   "devDependencies": {
     "@types/react": "^19.2.18",
-    "react": "^19.2.8"
+    "react": "^19.2.8",
+    "tsup": "^8.5.1"
   },
   "peerDependencies": {
     "react": ">=18"
