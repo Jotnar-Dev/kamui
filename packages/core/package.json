@@ -19,7 +19,7 @@
   },
   "scripts": {
     "tokens:build": "tsx scripts/build-tokens.ts",
-    "build": "pnpm tokens:build && tsup && mkdir -p dist/tokens && cp src/components/Button/Button.module.css dist/ && cp src/tokens/tokens.css dist/tokens/",
+    "build": "pnpm tokens:build && tsup && mkdir -p dist/tokens && cp src/components/*/*.module.css dist/ && cp src/tokens/tokens.css dist/tokens/",
     "typecheck": "tsc --noEmit",
     "lint": "eslint ."
   },
