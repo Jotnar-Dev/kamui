@@ -12,7 +12,7 @@ export default tseslint.config(
   // Apaga las reglas de ESLint que interfieren con Prettier
   eslintConfigPrettier,
   {
-    ignores: ['**/dist/**', '**/node_modules/**'],
+    ignores: ['**/dist/**', '**/node_modules/**', '**/storybook-static/**'],
   },
   storybook.configs['flat/recommended'],
 );

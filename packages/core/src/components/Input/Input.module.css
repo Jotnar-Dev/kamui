@@ -1,0 +1,25 @@
+.input {
+  width: 100%;
+  padding: var(--kamui-space-2) var(--kamui-space-3);
+  font-size: var(--kamui-font-size-md);
+  color: var(--kamui-color-gray-900);
+  background-color: transparent;
+  border: 1px solid var(--kamui-color-gray-300);
+  border-radius: var(--kamui-radius-md);
+  outline: none;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.input:focus {
+  border-color: var(--kamui-color-primary-500);
+  box-shadow: 0 0 0 1px var(--kamui-color-primary-500);
+}
+
+.input:disabled {
+  background-color: var(--kamui-color-gray-100);
+  color: var(--kamui-color-gray-400);
+  border-color: var(--kamui-color-gray-200);
+  cursor: not-allowed;
+}
