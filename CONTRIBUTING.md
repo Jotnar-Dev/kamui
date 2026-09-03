@@ -25,7 +25,7 @@ Crea el directorio correspondiente en `packages/core/src/components/<NombreCompo
 Dentro de la carpeta del componente:
 
 ```ts
-export { <NombreComponente> } from './<NombreComponente>.js';
+export { <NombreComponente> } from './<NombreComponente>';
 ```
 
 ### 5. El export global (`packages/core/src/index.ts`)
@@ -33,10 +33,8 @@ export { <NombreComponente> } from './<NombreComponente>.js';
 Agrega el componente a la API pública de la librería:
 
 ```ts
-export { <NombreComponente> } from './components/<NombreComponente>/index.js';
+export { <NombreComponente> } from './components/<NombreComponente>';
 ```
-
-> **Sobre la extensión `.js` explícita:** los componentes existentes (`Button`, `Input`) la usan, y seguir usándola en componentes nuevos no rompe nada — mantenla por consistencia. Pero, a diferencia de lo que se pensaba al escribir esta regla por primera vez, **ya no es estrictamente necesaria** desde que el build se migró a `tsup` (Fase 2, Tarea 1): lo verifiqué quitándola de ambos niveles (`components/<X>/index.ts` y `src/index.ts`) en un checkout de prueba — `tsc --noEmit` y `tsup` compilan igual de limpio, con el mismo `dist/index.js` resultante. La razón original (`tsc` plano preservaba la estructura de `src/` 1:1 en `dist/`, y Node necesitaba la ruta exacta con extensión para resolver ESM en runtime) dejó de aplicar porque `tsup` bundlea todos los componentes en un único `dist/index.js` — ya no hay imports relativos entre archivos compilados que resolver en el output final. Es decisión tuya si la mantenemos como convención de estilo (no cuesta nada) o la retiramos del blueprint; mientras tanto la dejo anotada tal como está, ya que es lo que hacen los dos componentes existentes.
 
 ### 6. La documentación (`apps/storybook/src/stories/<NombreComponente>.stories.tsx`)
 
