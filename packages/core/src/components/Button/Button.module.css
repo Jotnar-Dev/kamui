@@ -8,7 +8,7 @@
 }
 .primary {
   background: var(--kamui-color-primary-500);
-  color: white;
+  color: var(--kamui-color-white);
 }
 .secondary {
   background: var(--kamui-color-gray-100);
