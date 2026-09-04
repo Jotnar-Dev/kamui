@@ -1,0 +1,26 @@
+{
+  "plugins": [
+    "stylelint-value-no-unknown-custom-properties",
+    "stylelint-declaration-strict-value"
+  ],
+  "rules": {
+    "csstools/value-no-unknown-custom-properties": [
+      true,
+      { "importFrom": ["src/tokens/tokens.css"] }
+    ],
+    "scale-unlimited/declaration-strict-value": [
+      [
+        "/color$/",
+        "background",
+        "font-size",
+        "border-radius",
+        "/^padding/",
+        "/^margin/"
+      ],
+      {
+        "ignoreValues": ["transparent", "none", "inherit", "currentColor"],
+        "message": "Usa un token de packages/core/src/tokens/tokens.ts (var(--kamui-...)) en vez de un valor hardcodeado para \"${property}\""
+      }
+    ]
+  }
+}

@@ -21,11 +21,15 @@
     "tokens:build": "tsx scripts/build-tokens.ts",
     "build": "pnpm tokens:build && tsup && mkdir -p dist/tokens && cp src/components/*/*.module.css dist/ && cp src/tokens/tokens.css dist/tokens/",
     "typecheck": "tsc --noEmit",
-    "lint": "eslint ."
+    "lint": "eslint . && pnpm lint:css",
+    "lint:css": "pnpm tokens:build && stylelint 'src/**/*.module.css'"
   },
   "devDependencies": {
     "@types/react": "^19.2.18",
     "react": "^19.2.8",
+    "stylelint": "17.14.1",
+    "stylelint-declaration-strict-value": "1.12.1",
+    "stylelint-value-no-unknown-custom-properties": "6.1.1",
     "tsup": "^8.5.1"
   },
   "peerDependencies": {

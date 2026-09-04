@@ -1,5 +1,6 @@
 export const tokens = {
   color: {
+    white: '#ffffff',
     gray: {
       100: '#f5f5f5',
       300: '#d4d4d4',
