@@ -1,5 +1,17 @@
 # @jotnar_dev/core
 
+## 0.0.3
+
+### Patch Changes
+
+- [`e861031`](https://github.com/Jotnar-Dev/kamui/commit/e861031e2a2d3dbe61f6e2c8a61731ce510ff339) Thanks [@JotnarDev](https://github.com/JotnarDev)! - feat: initial hello world release for kamui core
+
+- [`e861031`](https://github.com/Jotnar-Dev/kamui/commit/e861031e2a2d3dbe61f6e2c8a61731ce510ff339) Thanks [@JotnarDev](https://github.com/JotnarDev)! - Initial release for core components
+
+- [`68900e8`](https://github.com/Jotnar-Dev/kamui/commit/68900e81199767048fbf88d597d1b3c0a594c56e) Thanks [@JotnarDev](https://github.com/JotnarDev)! - Initial release for jotnar_dev
+
+- [`68900e8`](https://github.com/Jotnar-Dev/kamui/commit/68900e81199767048fbf88d597d1b3c0a594c56e) Thanks [@JotnarDev](https://github.com/JotnarDev)! - Initial release for jotnar_dev
+
 ## 0.0.2
 
 ### Patch Changes
