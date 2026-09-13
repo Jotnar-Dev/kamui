@@ -329,7 +329,7 @@ importers:
         specifier: ^10.6.0
         version: 10.6.0(@types/react@19.2.18)(storybook@10.6.0(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))
       '@storybook/addon-mcp':
-        specifier: latest
+        specifier: 10.6.0
         version: 10.6.0(@storybook/addon-vitest@10.6.0(@vitest/browser-playwright@5.0.0)(@vitest/runner@4.1.11)(react@19.2.8)(storybook@10.6.0(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(vitest@5.0.0))(storybook@10.6.0(@types/react@19.2.18)(prettier@3.9.6)(react@19.2.8))(typescript@6.0.3)
       '@storybook/addon-vitest':
         specifier: ^10.6.0
