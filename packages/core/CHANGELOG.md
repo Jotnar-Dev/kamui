@@ -1,5 +1,11 @@
 # @jotnar_dev/core
 
+## 0.0.5
+
+### Patch Changes
+
+- [`870814e`](https://github.com/Jotnar-Dev/kamui/commit/870814ec946c17dba7bd14df91896398857037df) Thanks [@JotnarDev](https://github.com/JotnarDev)! - fix: add repository info for OIDC
+
 ## 0.0.4
 
 ### Patch Changes
