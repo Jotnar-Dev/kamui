@@ -309,7 +309,7 @@ importers:
 
   apps/storybook:
     dependencies:
-      '@jotnardev/core':
+      '@jotnar_dev/core':
         specifier: workspace:*
         version: link:../../packages/core
       react:

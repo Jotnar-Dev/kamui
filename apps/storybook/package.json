@@ -9,7 +9,7 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "@jotnardev/core": "workspace:*",
+    "@jotnar_dev/core": "workspace:*",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"
   },

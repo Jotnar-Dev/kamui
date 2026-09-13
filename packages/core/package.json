@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "name": "@jotnardev/core",
   "version": "0.0.2",
+=======
+  "name": "@jotnar_dev/core",
+  "version": "0.0.1",
+>>>>>>> 258890f (chore: rename npm scope from jotnardev to jotnar-dev)
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

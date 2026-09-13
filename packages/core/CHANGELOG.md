@@ -1,4 +1,4 @@
-# @jotnardev/core
+# @jotnar_dev/core
 
 ## 0.0.2
 
