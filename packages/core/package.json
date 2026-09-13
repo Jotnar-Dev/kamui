@@ -5,6 +5,11 @@
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jotnar-Dev/kamui.git",
+    "directory": "packages/core"
+  },
   "files": [
     "dist"
   ],
