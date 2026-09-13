@@ -1,5 +1,11 @@
 # @jotnar_dev/core
 
+## 0.0.4
+
+### Patch Changes
+
+- [`063f77f`](https://github.com/Jotnar-Dev/kamui/commit/063f77fd8d866f5f52f0b1430947598019a5f9ae) Thanks [@JotnarDev](https://github.com/JotnarDev)! - Add MIT license to package metadata and configure OIDC provenance
+
 ## 0.0.3
 
 ### Patch Changes
